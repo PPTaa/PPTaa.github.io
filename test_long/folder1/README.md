@@ -1,3 +1,3 @@
-# I'm folder1
+# 알고리즘
 
 source: `{{ page.path }}`
