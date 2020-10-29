@@ -32,3 +32,5 @@ exclude:
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://PPTaa.github.io/" # the base hostname & protocol for your site
 
+disqus_url: https://pptaa-blog.disqus.com/admin/
+disqus_id: PPTaa Blog
