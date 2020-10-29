@@ -1,3 +1,3 @@
-# 알고리즘
+# Algo
 
 source: `{{ page.path }}`
