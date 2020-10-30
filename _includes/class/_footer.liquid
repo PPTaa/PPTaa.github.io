@@ -20,6 +20,10 @@
     {%- endif -%}
 {%- endif -%}
 
+{% if page.comments != false %}
+  {% include extra/footer.html %}
+{% endif %}
+
 <hr>
 
 <div class="copyright text-center text-gray" role="contentinfo">
