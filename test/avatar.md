@@ -2,7 +2,7 @@
 sort: 7
 ---
 
-# Avatar Test
+# disqus Test
 
 ```
 {% raw %}{% avatar saowang %}{% endraw %}
@@ -16,3 +16,5 @@ Set config `plugins: [jekyll-avatar]`
 For documentation, see: [https://github.com/benbalter/jekyll-avatar](https://github.com/benbalter/jekyll-avatar)
 ```
 
+{% disqus PPTaa Blog %}
+{% disqus PPTaa-Blog %}
