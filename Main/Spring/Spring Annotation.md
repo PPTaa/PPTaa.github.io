@@ -56,5 +56,34 @@ xml 설정에서의 **\<bean\>** 태그와 동일한 역할은 한다.
 
 
 
+### @RequestMapping
+
+클래스에 달게되면 현재 클래스의 모든 메서드들의 기본적인 URL경로를 지정하는 어노테이션
+
+메서드에 달게되면 해당 메서드의 URL경로를 지정한다.
+
+````java
+@Controller
+// 이 클래스는 /sample로 들어왔을 때 호출되게 됨
+@RequestMapping("/sample/*")
+@Log4j
+public class SampleController {
+	
+	// value 값에는 URL경로, method는 전송 방식을 지정 이경우는 get post두 방식 모두 받는 메서드	
+	@RequestMapping(value = "/basic", method = {RequestMethod.GET, RequestMethod.POST})
+	public void basicGet() {
+		log.info("basic get post");
+	}
+}
+````
+
+
+
+### @GetMapping, @PostMapping
+
+RequestMapping의 축양형
+
+
+
 계속 추가 예정...
 
