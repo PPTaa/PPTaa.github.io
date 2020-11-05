@@ -18,7 +18,7 @@ MVC 는 Model, View, Controller의 약자 입니다. 하나의 애플리케이�
 
 개발자들이 자신들이 필요한 부분만을 집중해서 개발 할 수 있는 구조로 만들어져 있음.
 
-![image-20201105131145057](/Users/macbookair/Blog/img/Spring MVC/image-20201105131145057.png)
+![image-20201105132219053](../../img/Spring MVC/image-20201105132219053.png)
 
 >  출처: 코드로 배우는 스프링 웹 프로젝트 (개정판)
 
@@ -32,7 +32,7 @@ MVC 는 Model, View, Controller의 약자 입니다. 하나의 애플리케이�
 
 화면과 로직을 분리하는 스타일의 개발방식
 
-![image-20201105131115468](/Users/macbookair/Blog/img/Spring MVC/image-20201105131115468.png)
+![image-20201105131115468](../../img/Spring MVC/image-20201105131115468.png)
 
 >  출처: 코드로 배우는 스프링 웹 프로젝트 (개정판)
 
