@@ -81,7 +81,70 @@ public class SampleController {
 
 ### @GetMapping, @PostMapping
 
-RequestMapping의 축양형
+RequestMapping의 축약형 Get과 Post에 대한 매핑을 나타낸다.
+
+
+
+### @InitBinder
+
+파라미터의 수집을 다른 용어로는 바인딩이라고 한다. 
+
+변환이 가능한 데이터는 자동으로 변환이 되지만 파라미터를 변환하여 처리해야 하는 경우도 있다. 
+
+> ex) 2020-11-05 같이 문자열로 된 데이터를 java.util.Date 타입으로 변환하는 작업
+
+이때 컨트롤러에서 파라미터를 바인딩 할 때 자동으로 호출되는 어노테이션
+
+````java
+@InitBinder
+	public void initBinder(WebDataBinder binder) {
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+		binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, false));
+	}
+````
+
+
+
+### @DateTimeFormat
+
+파라미터로 사용되는 인스턴스 변수에 사용하여 변환하는 방식, (이 어노테이션을 사용하는 경우에는 @InitBinder는 사용하지 않는다.)
+
+````java
+@Data
+public class PptaaDTO {
+
+	private String title;
+	@DateTimeFormat(pattern = "yyyy/MM/dd")
+	private Date dueDate;
+}
+````
+
+문자열로 'yyyy/MM/dd'의 형식이 맞다면 java.util.Date 타입으로 변환된다.
+
+
+
+### @ModelAttribute
+
+웹페이지의 구조는 Request에 전달된 데이터로 필요하다면 추가적인 데이터를 생성해서 화면으로 전달하는 방식으로 동작.
+
+Model의 경우는 파라미터로 전달된 데이터는 존재하지 않지만 필요한 데이터를 전달하기 위해 사용
+
+@ModelAttribute는 전달받은 파라미터를 강제로 Model에 담아서 전달하도록 할때 필요한 어노테이션.
+
+파라미터로 전달된 데이터를 다시 화면에서 사용해야 할때 유용하게 사용
+
+````java
+@GetMapping("ex04")
+	public String ex04(SampleDTO dto,@ModelAttribute("page") int page) {
+		
+		log.info("dto: "+ dto);
+		log.info("page"+page);
+		
+		return "/sample/ex04";
+	}
+````
+
+
 
 
 
