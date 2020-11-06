@@ -42,3 +42,5 @@ Model2 방식에서 사용자의 Request는 특별한 상황이 아닌 이상 Co
 
 Controller는 데이터를 처리하는 존재를 이용해서 데이터를 처리하고, Response 할 때 필요한 데이터를 View쪽으로 전달하게 된다.
 
+
+
