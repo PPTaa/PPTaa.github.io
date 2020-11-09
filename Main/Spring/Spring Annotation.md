@@ -146,7 +146,21 @@ Model의 경우는 파라미터로 전달된 데이터는 존재하지 않지만
 
 
 
+### @Controller
 
+스프링의 빈으로 인식할 수 있게 class를 지정해줌
+
+
+
+### @WebAppConfiguration
+
+Servlet의 ServletContext를 이용하기 위해서 사용, 스프링에서는 WebApplicationContext라는 존재를 이용하기 위해서 사용
+
+
+
+### @MockMvc
+
+가짜 MVC, 가짜로 URL과 파라미터 등을 브라우저에서 사용하는 것 처럼 만들어서 Controller를 실행해 볼 수 있게 도와주는 어노테이션
 
 계속 추가 예정...
 
