@@ -2,7 +2,7 @@
 
 게시글을 등록하는 과정에서 POST방식으로 데이터가 처리되는 과정을 UML로 표현 하면 다음과 같다.
 
-![img](../../img/재전송(Redirect)의 처리/uml0000.png)
+![img](../../img/Spring/uml0000.png)
 
 Controller의 register() 메서드는 redirect:/list를 전송한다고 할때 브라우저는 이를 받은후 /list로 이동하게 된다.
 
