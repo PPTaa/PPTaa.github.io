@@ -1,101 +1,72 @@
-# PPTaa 블로그
+# PPTaa의 주관적인 개발 블로그
 
-![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=v2)
-![jsDelivr](https://data.jsdelivr.com/v1/package/gh/rundocs/jekyll-rtd-theme/badge)
+안녕하세요? PPTaa의 지극히 주관적인 개발 블로그입니다.
 
-Opinionated standard documentation theme, with few options, but everything!
+Python 알고리즘 풀이와 Java Spring관련 자료들이 대부분입니다.
 
-## What it does?
+제가 학습했던 내용들을 주관적으로 작성해놨습니다~
 
-This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphinx_rtd_theme) and refactored with:
 
-- [@primer/css](https://github.com/primer/css)
-- [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
 
-## Quick start
 
-```yml
-remote_theme: rundocs/jekyll-rtd-theme
-```
 
-You can [generate](https://github.com/rundocs/starter-slim/generate) with the same files and folders from [rundocs/starter-slim](https://github.com/rundocs/starter-slim/)
+## 관심있는 내용들
 
-## Usage
+- Spring / Spring Boot
+- AWS (Amazon Web Service)
+- Docker (컨테이너, 이미지 배포)
+- Jenkins (무중단 배포)
+- MSA (Micro Service Architecture)
+- Python 알고리즘 (코테 공부)
+- 앱 개발 언어들 (Kotlin, Swift)
+-  REST API
 
-Documentation that can guide how to create with Github pages, please refer to [rundocs.io](https://rundocs.io) for details
 
-## Features
 
-- Shortcodes (Toasts card, mermaid)
-- Pages Plugins (emoji, gist, avatar, mentions)
-- Auto generate sidebar
-- [Attribute List Definitions](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions) (Primer/css utilities, Font Awesome 4)
-- Service worker (caches)
-- SEO (404, robots.txt, sitemap.xml)
-- Canonical Link (Open Graph, Twitter Card, Schema data)
 
-## Options
 
-| name          | default value        | description       |
-| ------------- | -------------------- | ----------------- |
-| `title`       | repo name            |                   |
-| `description` | repo description     |                   |
-| `url`         | user domain or cname |                   |
-| `baseurl`     | repo name            |                   |
-| `lang`        | `en`                 |                   |
-| `direction`   | `auto`               | `ltr` or `rtl`    |
-| `highlighter` | `rouge`              | Cannot be changed |
 
-```yml
-# folders sort
-readme_index:
-  with_frontmatter: true
 
-meta:
-  key1: value1
-  key2: value2
-  .
-  .
-  .
+## 현재 업로드 중 내용...
 
-google:
-  gtag:
-  adsense:
+- Python 알고리즘
+- Spring 웹 어플리케이션 개발
 
-mermaid:
-  custom: # mermaid link
-  initialize: # mermaid options, default: {}
 
-# also available via file: _include/assets/custom.scss
-scss:
 
-# also available via file: _include/assets/custom.js
-script:
 
-# also available via file: _data/translate.yml
-translate:
-  # shortcodes
-  danger:
-  note:
-  tip:
-  warning:
-  # 404
-  not_found:
-  # copyright
-  revision:
-  # search
-  searching:
-  search:
-  search_docs:
-  search_results:
-  search_results_found: # the "#" in this translate will replaced with results size!
-  search_results_not_found:
 
-plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## The license
 
