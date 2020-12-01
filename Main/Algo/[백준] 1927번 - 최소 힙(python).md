@@ -1,8 +1,3 @@
----
-sort: 1
-layout: default
-comments: true
----
 # [백준] 1927번 - **최소 힙** (python)
 
 ## 문제
