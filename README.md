@@ -12,6 +12,7 @@ Python 알고리즘 풀이와 Java Spring관련 자료들이 대부분입니다.
 
 ## 관심있는 내용들
 
+- Swift 아이폰 앱개발
 - Spring / Spring Boot
 - AWS (Amazon Web Service)
 - Docker (컨테이너, 이미지 배포)
@@ -19,7 +20,7 @@ Python 알고리즘 풀이와 Java Spring관련 자료들이 대부분입니다.
 - MSA (Micro Service Architecture)
 - Python 알고리즘 (코테 공부)
 - 앱 개발 언어들 (Kotlin, Swift)
--  REST API
+- REST API
 
 
 
