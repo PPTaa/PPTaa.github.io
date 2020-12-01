@@ -74,5 +74,17 @@ integerSet.removeFirst()
 // set의 요소 개수
 integerSet.count
 
+// set의 활용
+let setA: Set<Int> = [1,2,3,4,5]
+let setB: Set<Int> = [4,5,6,7,8]
+// 합집합
+let union: Set<Int> = setA.union(setB)
+// 정렬
+let sortedUnion: [Int] = union.sorted()
+// 교집합
+let intersection: Set<Int> = setA.intersection(setB)
+// 차집합
+let subtracting: Set<Int> = setA.subtracting(setB)
+
 ````
 
